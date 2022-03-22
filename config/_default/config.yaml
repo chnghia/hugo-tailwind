@@ -1,7 +1,7 @@
 baseURL: ''
 languageCode: en
-title: HugoWind
-theme: hugowind
+title: Hugo Tailwind
+theme: tailwind 
 paginate: 100
 defaultContentLanguage: en
 markup:

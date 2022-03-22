@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "hugo server --disableFastRender",
+    "serve:network": "hugo server --bind=0.0.0.0 --baseURL=http://0.0.0.0:1313 --disableFastRender",
+    "build": "hugo --gc --minify"
   },
   "keywords": [],
   "author": "",

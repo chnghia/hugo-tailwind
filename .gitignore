@@ -8,6 +8,7 @@
 # website: https://gohugo.io
 
 .DS_Store
+.hugo_build.lock
 
 # generated files by hugo
 /public/
